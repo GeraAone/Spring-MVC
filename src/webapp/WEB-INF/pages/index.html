@@ -11,5 +11,10 @@
         <h1 th:text="${msg}"></h1>
     </th:block>
 </div>
+<div>
+    <th:block th:each="user : ${users}">
+        <h1 th:text="${user}"></h1>
+    </th:block>
+</div>
 </body>
 </html>

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="problem_29_spring-mvc" />
         <module name="Problem_29_Spring-mvc" />
+        <module name="spring-mvc" />
       </profile>
     </annotationProcessing>
   </component>
